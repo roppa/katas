@@ -1,0 +1,16 @@
+{
+  "name": "javascript-katas",
+  "version": "1.0.0",
+  "description": "Javascript Katas, including some of Uncle Bob's stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/**/*.spec.js",
+    "test:watch": "watch 'npm run test' ."
+  },
+  "author": "Mark Robson",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.6.3",
+    "watch": "^1.0.2"
+  }
+}
